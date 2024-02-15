@@ -13,6 +13,7 @@
     --border:.1rem solid #aaa;
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
+
 *{
     font-family: 'Playfair Display', sans-serif;
     margin:0; padding:0;
@@ -94,16 +95,6 @@ section{
     /*text-transform:uppercase; */
 }
 
-header .navbar #close-navbar {
-    position: absolute;
-    top: 1.5rem;
-    right: 2rem;
-    font-size: 4rem;
-    cursor: pointer;
-    color: var(--black);
-    display: none;
-  }
-
   .header .navbar a{
     font-size: 2rem;
     margin-left: 2rem;
@@ -116,12 +107,7 @@ header .navbar #close-navbar {
     color:var(--primary-color);
  }
  
- #menu-btn{
-    font-size: 2.5rem;
-    cursor: pointer;
-    color:var(--black);
-    display: none;
- }
+
 
  .home{
     min-height: 100vh;
